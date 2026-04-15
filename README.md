@@ -23,3 +23,60 @@ Terminal xatolarini avtomatik aniqlaydi va **to‘g‘ri komandalarni taklif qil
 ```bash
 git clone https://github.com/SIZNING_USERNAME/linux-ai-yordamchi.git
 cd linux-ai-yordamchi
+
+Fayl YAratish
+nano ai_yordamchi.py
+
+Ishga tushurish
+python3 ai_yordamchi.py
+
+Yoki bir qatorda
+chmod +x ai_yordamchi.py && ./ai_yordamchi.py
+
+
+TEST qilish uchun misollar
+# 1. Ruxsat xatosi
+ls /root
+
+# 2. Topilmagan komanda (avtomatik o'rnatadi)
+nmap
+
+# 3. Python xatosi
+python --version
+
+# 4. Pip xatosi
+pip list
+
+# 5. Paket o'rnatish (sudo kerak)
+apt install htop
+
+# 6. Noto'g'ri parametr
+ls --wrong
+
+# 7. Fayl topilmadi
+cat test.txt
+
+# 8. Git xatosi
+git status
+
+# 9. Python moduli yo'q
+python3 -c "import requests"
+
+# 10. Chiqish
+chiq
+
+
+
+Ishlash Prinsipi
+Siz komanda yozasiz → Men bajaraman
+↓
+Agar xato bo'lsa → Xatoni aniqlayman
+↓
+Avtomatik tuzataman → Qayta bajaraman
+↓
+Natijani ko'rsataman ✅
+
+Bu dastur har qanday Linux terminalida ishlaydi va barcha xatolarni avtomatik tuzatadi. Siz faqat:
+
+bash
+python3 ai_yordamchi.py
