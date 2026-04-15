@@ -10,7 +10,7 @@ Terminal xatolarini avtomatik aniqlaydi va **to‘g‘ri komandalarni taklif qil
 - ✅ O‘zbek tilida interfeys
 - ✅ Xatolarni avtomatik tahlil qiladi
 - ✅ `sudo`, `python3`, `pip3` kabi to‘g‘ri variantlarni taklif qiladi
-- ✅ Faqat **3 ta komanda** bilan ishlaydi
+- ✅ Faqat **2 ta komanda** bilan ishlaydi
 - ✅ Hech qanday tashqi API yoki internet kerak emas
 - ✅ Faqat **qonuniy laboratoriya** ishlari uchun
 
